@@ -1,1 +1,33 @@
-// TODO
+.container {
+    max-width: 720px;
+  
+    margin: 5rem auto;
+  
+    p {
+      margin-bottom: 1.5rem;
+  
+      font-size: 1.125rem;
+  
+      text-align: justify;
+  
+      strong {
+        color: var(--gray-05);
+      }
+    }
+  
+    .Infos {
+      color: var(--gray-05);
+  
+      font-size: 0.875rem;
+  
+      svg {
+        margin-right: 0.5rem;
+  
+        stroke: var(--gray-05);
+      }
+  
+      span {
+        margin-left: 1.5rem;
+      }
+    }
+  }

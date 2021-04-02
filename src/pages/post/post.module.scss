@@ -1,1 +1,46 @@
-// TODO
+.container {
+  img {
+    max-width: 100%;
+  }
+
+  article {
+    header {
+      margin-bottom: 4rem;
+
+      h1 {
+        margin-bottom: 1.5rem;
+
+        font-size: 3rem;
+
+        letter-spacing: -0.5px;
+
+        color: var(--title);
+      }
+    }
+
+    main {
+      p {
+        margin-bottom: 1.5rem;
+
+        font-size: 1.125rem;
+
+        text-align: justify;
+
+        color: var(--gray-05);
+
+        strong {
+          font-weight: 400;
+
+          color: var(--pink);
+        }
+      }
+
+      h2 {
+        margin: 2.75rem 0;
+
+        font-size: 2.25rem;
+        color: var(--pink);
+      }  
+    }
+  }
+}

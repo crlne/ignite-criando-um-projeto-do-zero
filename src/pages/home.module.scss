@@ -1,1 +1,52 @@
-// TODO
+.container {
+  img {
+    margin-bottom: 4rem;
+  }
+
+  .posts {
+    list-style: none;
+  }
+
+  .post {
+    & + .post {
+      margin-top: 3rem;
+    }
+
+    a:hover {
+      h3 {
+        color: var(--pink);
+      }
+    }
+
+    h3 {
+      margin-bottom: 0.5rem;
+      font-size: 2.125rem;
+      font-weight: 700;
+      line-height: 2.125rem;
+      letter-spacing: -0.5px;
+      text-align: justify;
+      color: var(--title);
+
+      transition: color 0.2s;
+    }
+
+    p {
+      line-height: 1.375rem;
+    }
+  }
+
+  button {
+    margin-top: 4rem;
+    border: 0;
+    background: transparent;
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: var(--pink);
+
+    transition: filter 0.2s;
+
+    &:hover {
+      filter: brightness(0.6);
+    }
+  }
+}
